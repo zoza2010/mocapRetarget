@@ -1,0 +1,48 @@
+{
+  "search_patterns": ["*|*:char_*|*:rig_gr|*:Group|*:Main|*:DeformationSystem",
+                      "*|*:char_*_se|*:Group|*:Main|*:DeformationSystem"],
+
+  "assets":{
+    "char_so": {"asset_path": "${ENOTKI}/assets/characters/char_so/char_so_rig.ma",
+           "config_path": "mapping_configs/so_mapping.json"},
+
+    "char_faf": {"asset_path": "${ENOTKI}/assets/characters/char_faf/char_faf_rig.ma",
+                "config_path": "mapping_configs/enotki_mapping.json"},
+
+    "char_doka": {"asset_path": "${ENOTKI}/assets/characters/char_doka/char_doka_rig.ma",
+                 "config_path": "mapping_configs/enotki_mapping.json"},
+
+    "char_lala": {"asset_path": "${ENOTKI}/assets/characters/char_lala/char_lala_rig.ma",
+                 "config_path": "mapping_configs/enotki_mapping.json"},
+
+    "char_little_si": {"asset_path": "${ENOTKI}/assets/characters/char_little_si/char_little_si_rig.ma",
+                      "config_path": "mapping_configs/enotki_mapping.json"},
+
+    "char_re": {"asset_path": "${ENOTKI}/assets/characters/char_re/char_re_rig.ma",
+               "config_path": "mapping_configs/enotki_mapping.json"},
+
+    "char_mimi": {"asset_path": "${ENOTKI}/assets/characters/char_mimi/char_mimi_rig.ma",
+                 "config_path": "mapping_configs/mimi_mapping.json"},
+
+    "char_doka_se": {"asset_path": "${ENOTKI}/assets/characters/char_se_group/char_doka_se/char_doka_se_rig.ma",
+                 "config_path": "mapping_configs/chars_se/doka_se_mapping.json"},
+
+    "char_faf_se": {"asset_path": "${ENOTKI}/assets/characters/char_se_group/char_faf_se/char_faf_se_rig.ma",
+                 "config_path": "mapping_configs/chars_se/faf_se_mapping.json"},
+
+    "char_lala_se": {"asset_path": "${ENOTKI}/assets/characters/char_se_group/char_lala_se/char_lala_se_rig.ma",
+                 "config_path": "mapping_configs/chars_se/lala_se_mapping.json"},
+
+    "char_little_si_se": {"asset_path": "${ENOTKI}/assets/characters/char_se_group/char_little_si_se/char_little_si_se_rig.ma",
+                 "config_path": "mapping_configs/chars_se/little_si_se_mapping.json"},
+
+    "char_mimi_se": {"asset_path": "${ENOTKI}/assets/characters/char_se_group/char_mimi_se/char_mimi_se_rig.ma",
+                 "config_path": "mapping_configs/chars_se/mimi_se_mapping.json"},
+
+    "char_re_se": {"asset_path": "${ENOTKI}/assets/characters/char_se_group/char_re_se/char_re_se_rig.ma",
+                 "config_path": "mapping_configs/chars_se/re_se_mapping.json"},
+
+    "char_so_se": {"asset_path": "${ENOTKI}/assets/characters/char_se_group/char_so_se/char_so_se_rig.ma",
+                 "config_path": "mapping_configs/chars_se/so_se_mapping.json"}
+  }
+}

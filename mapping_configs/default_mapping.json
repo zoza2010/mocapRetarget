@@ -1,0 +1,35 @@
+{
+  "side_prefixes": ["_L", "_R"],
+  "fk_parts": [
+    {"part_name" : "leg",
+    "source": "leg_joint",
+    "target": "leg_ctrl",
+    "side_part": true},
+
+    {"part_name" : "arm",
+    "source": "arm_joint",
+    "target": "arm_ctrl",
+    "side_part": true}
+  ],
+  "ikParts": [
+    {"startPart":{
+      "source": "sourceStartPart",
+      "target": "targetStartPart"},
+
+    "midPart":
+        {"source": "sourceStartPart",
+        "target":"targetStartPart"},
+
+    "endPart":
+        {"source": "sourceStartPart",
+        "target":"targetStartPart"}}
+  ]
+}
+
+    {"source": "Head_M",
+    "target": "FKHead_M",
+    "offset_object": null},
+
+    {"source": "Shoulder_L",
+    "target": "FKShoulder_L",
+    "offset_object": null},

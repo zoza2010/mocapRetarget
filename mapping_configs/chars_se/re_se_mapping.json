@@ -1,0 +1,206 @@
+{
+  "fk_parts": [
+    {"source": "Root_M",
+    "target": "RootX_M",
+    "offset_object": "Root_M"},
+
+    {"source": "Spine1_M",
+    "target": "FKSpine1_M",
+    "offset_object": "Spine1_M"},
+
+    {"source": "Spine2_M",
+    "target": "FKSpine2_M",
+    "offset_object": "Spine2_M"},
+
+    {"source": "Chest_M",
+    "target": "FKChest_M",
+    "offset_object": "Chest_M"},
+
+    {"source": "Head_M",
+    "target": "FKHead_M",
+    "offset_object": "Head_M"},
+
+    {"source": "Scapula_L",
+    "target": "FKScapula_L",
+    "offset_object": "Scapula_L"},
+
+    {"source": "Shoulder_L",
+    "target": "FKShoulder_L",
+    "offset_object": "Shoulder_L"},
+
+    {"source": "Elbow_L",
+    "target": "FKElbow_L",
+    "offset_object": "Elbow_L"},
+
+    {"source": "Wrist_L",
+    "target": "FKWrist_L",
+    "offset_object": "Wrist_L"},
+
+
+    {"source": "ThumbFinger1_L",
+    "target": "FKThumbFinger1_L",
+    "offset_object": "ThumbFinger1_L"},
+
+    {"source": "ThumbFinger2_L",
+    "target": "FKThumbFinger2_L",
+    "offset_object": "ThumbFinger2_L"},
+
+    {"source": "ThumbFinger3_L",
+    "target": "FKThumbFinger3_L",
+    "offset_object": "ThumbFinger3_L"},
+
+    {"source": "IndexFinger1_L",
+    "target": "FKIndexFinger1_L",
+    "offset_object": "IndexFinger1_L"},
+
+    {"source": "IndexFinger2_L",
+    "target": "FKIndexFinger2_L",
+    "offset_object": "IndexFinger2_L"},
+
+    {"source": "IndexFinger3_L",
+    "target": "FKIndexFinger3_L",
+    "offset_object": "IndexFinger3_L"},
+
+    {"source": "MiddleFinger1_L",
+    "target": "FKMiddleFinger1_L",
+    "offset_object": "MiddleFinger1_L"},
+
+    {"source": "MiddleFinger2_L",
+    "target": "FKMiddleFinger2_L",
+    "offset_object": "MiddleFinger2_L"},
+
+    {"source": "MiddleFinger3_L",
+    "target": "FKMiddleFinger3_L",
+    "offset_object": "MiddleFinger3_L"},
+
+    {"source": "RingFinger1_L",
+    "target": "FKRingFinger1_L",
+    "offset_object": "RingFinger1_L"},
+
+    {"source": "RingFinger2_L",
+    "target": "FKRingFinger2_L",
+    "offset_object": "RingFinger2_L"},
+
+    {"source": "RingFinger3_L",
+    "target": "FKRingFinger3_L",
+    "offset_object": "RingFinger3_L"},
+
+        {"source": "Scapula_R",
+    "target": "FKScapula_R",
+    "offset_object": "Scapula_R"},
+
+    {"source": "Shoulder_R",
+    "target": "FKShoulder_R",
+    "offset_object": "Shoulder_R"},
+
+    {"source": "Elbow_R",
+    "target": "FKElbow_R",
+    "offset_object": "Elbow_R"},
+
+    {"source": "Wrist_R",
+    "target": "FKWrist_R",
+    "offset_object": "Wrist_R"},
+
+
+    {"source": "ThumbFinger1_R",
+    "target": "FKThumbFinger1_R",
+    "offset_object": "ThumbFinger1_R"},
+
+    {"source": "ThumbFinger2_R",
+    "target": "FKThumbFinger2_R",
+    "offset_object": "ThumbFinger2_R"},
+
+    {"source": "ThumbFinger3_R",
+    "target": "FKThumbFinger3_R",
+    "offset_object": "ThumbFinger3_R"},
+
+    {"source": "IndexFinger1_R",
+    "target": "FKIndexFinger1_R",
+    "offset_object": "IndexFinger1_R"},
+
+    {"source": "IndexFinger2_R",
+    "target": "FKIndexFinger2_R",
+    "offset_object": "IndexFinger2_R"},
+
+    {"source": "IndexFinger3_R",
+    "target": "FKIndexFinger3_R",
+    "offset_object": "IndexFinger3_R"},
+
+    {"source": "MiddleFinger1_R",
+    "target": "FKMiddleFinger1_R",
+    "offset_object": "MiddleFinger1_R"},
+
+    {"source": "MiddleFinger2_R",
+    "target": "FKMiddleFinger2_R",
+    "offset_object": "MiddleFinger2_R"},
+
+    {"source": "MiddleFinger3_R",
+    "target": "FKMiddleFinger3_R",
+    "offset_object": "MiddleFinger3_R"},
+
+    {"source": "RingFinger1_R",
+    "target": "FKRingFinger1_R",
+    "offset_object": "RingFinger1_R"},
+
+    {"source": "RingFinger2_R",
+    "target": "FKRingFinger2_R",
+    "offset_object": "RingFinger2_R"},
+
+    {"source": "RingFinger3_R",
+    "target": "FKRingFinger3_R",
+    "offset_object": "RingFinger3_R"},
+
+
+
+    {"source": "tail2",
+    "target": "tail_ctrl",
+    "offset_object": "tail2"},
+
+
+    {"source": "tail5",
+    "target": "tail1_ctrl",
+    "offset_object": "tail5"},
+
+    {"source": "tail8",
+    "target": "tail2_ctrl",
+    "offset_object": "tail8"},
+
+    {"source": "tail12",
+    "target": "tail3_ctrl",
+    "offset_object": "tail12"}
+  ],
+
+
+  "ik_parts": [
+    {"start_part":{
+      "source": "Hip_L",
+      "target": "IKXOffsetHip_L_ctrl",
+      "offset_object": "IKXHip_L"},
+
+    "mid_part":
+        {"source": "Knee_L",
+        "target":"PoleLeg_L",
+        "offset_object": null},
+
+    "end_part":
+        {"source": "Ankle_L",
+        "target":"IKLeg_L",
+        "offset_object": "IKXAnkle_L"}},
+
+    {"start_part":{
+      "source": "Hip_R",
+      "target": "IKXOffsetHip_R_ctrl",
+      "offset_object": "IKXHip_R"},
+
+    "mid_part":
+        {"source": "Knee_R",
+        "target":"PoleLeg_R",
+        "offset_object": null},
+
+    "end_part":
+        {"source": "Ankle_R",
+        "target":"IKLeg_R",
+        "offset_object": "IKXAnkle_R"}}
+
+  ]
+}
